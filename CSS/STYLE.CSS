@@ -1,0 +1,77 @@
+body{
+	margin:20px;
+}
+h1{
+	color:navy;
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	color:red;
+	font-family: 'Montserrat', sans-serif;
+
+}
+#single-one{
+	color:orange;
+}
+.multiple {
+	color:red;
+}
+#fixedit h1{
+	position:fixed;
+	color:red;
+	width:200vw;
+	height:200px;
+	background-color:rgba(0,0,100,0.5);
+	font-size:100pt;
+	top:0;
+}
+#moving-div1{
+	position:relative;
+	width:30vw;
+	height:40px;
+	left:70vw; 
+	background-color:rgba(100,0,0,0);
+}
+#moving-div2{
+	position:absolute;
+	width:80vw;
+	height:100px;
+	left:70vw; 
+	background-color:rgba(100,0,100,0);
+}
+#static{
+	position:static;
+	right:;
+	button:;
+	width:300px;
+	height:300px;
+	background-color:rgba(100,10,100,80);
+}
+#okayfixed{
+	position:fixed;
+	color:yellow;
+	width:600vw;
+	height:200px;
+	top:0;
+	font-size:70pt;
+
+}
+#div5{
+	width:100px;
+	height:100px;
+	background:red;
+	transition: width 2s ease-in;
+}
+#div5:hover{
+	width:600px;
+	background-color:rgba(0,0,100,1);
+}
+#translate{
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+#translate:hover {
+	transform: translate(30px);
+}
